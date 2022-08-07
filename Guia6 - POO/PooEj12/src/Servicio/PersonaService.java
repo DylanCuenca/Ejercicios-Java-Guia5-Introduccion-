@@ -62,7 +62,7 @@ public class PersonaService {
     public void mostrarPersona(Persona personaReal) {
         
         System.out.println("Nombre: " + personaReal.getNombre());
-        System.out.println("Fecha de nacimiento: " + (personaReal.getFechaNAcimiento().getDay()) +" "+ (personaReal.getFechaNAcimiento().getMonth()) +" "+(personaReal.getFechaNAcimiento().getYear()));
+        System.out.println("Fecha de nacimiento: " + (personaReal.getFechaNAcimiento().getDate()) +" "+ (personaReal.getFechaNAcimiento().getMonth()) +" "+(personaReal.getFechaNAcimiento().getYear()));
     }
 
 }
